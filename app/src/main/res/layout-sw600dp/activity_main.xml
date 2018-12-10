@@ -12,7 +12,7 @@
         android:layout_height="50dp"
         android:text="0"
         android:textAlignment="center"
-        android:textSize="12sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="@+id/amountOfDimesToDispenseTextViewID"
         app:layout_constraintEnd_toEndOf="@+id/nickelsInDispenserTextViewID"
         app:layout_constraintStart_toStartOf="@+id/nickelsInDispenserTextViewID"
@@ -20,13 +20,13 @@
 
     <TextView
         android:id="@+id/inputAmounToDispenseTextViewID"
-        android:layout_width="238dp"
-        android:layout_height="32dp"
+        android:layout_width="344dp"
+        android:layout_height="90dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:text="@string/inputAmountToDispenseInstructions"
         android:textAlignment="center"
-        android:textSize="18sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/quarterImageID"
         app:layout_constraintEnd_toEndOf="@+id/amountOfQuartersToDispenseTextViewID"
         app:layout_constraintStart_toStartOf="@+id/subtactQuarterButtonID"
@@ -65,8 +65,8 @@
 
     <ImageButton
         android:id="@+id/subtractNickelButtonID"
-        android:layout_width="43dp"
-        android:layout_height="34dp"
+        android:layout_width="95dp"
+        android:layout_height="74dp"
         android:contentDescription="@string/subractNickelButton"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="@+id/nickelImageID"
@@ -74,27 +74,25 @@
         app:layout_constraintHorizontal_bias="0.813"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/nickelImageID"
-        app:layout_constraintVertical_bias="0.566"
         app:srcCompat="@drawable/subtract_minus_remove" />
 
     <ImageButton
         android:id="@+id/subtractDimeButtonID"
-        android:layout_width="48dp"
-        android:layout_height="41dp"
+        android:layout_width="95dp"
+        android:layout_height="74dp"
         android:contentDescription="@string/subtractDimeButton"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="@+id/dimeImageID"
         app:layout_constraintEnd_toStartOf="@+id/dimeImageID"
         app:layout_constraintHorizontal_bias="0.813"
-        app:layout_constraintHorizontal_chainStyle="spread_inside"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/dimeImageID"
         app:srcCompat="@drawable/subtract_minus_remove" />
 
     <ImageView
         android:id="@+id/dimeImageID"
-        android:layout_width="69dp"
-        android:layout_height="53dp"
+        android:layout_width="170dp"
+        android:layout_height="176dp"
         android:layout_marginTop="16dp"
         android:contentDescription="@string/dimeImage"
         app:layout_constraintEnd_toStartOf="@+id/addDimeButtonID"
@@ -105,8 +103,8 @@
 
     <ImageView
         android:id="@+id/nickelImageID"
-        android:layout_width="59dp"
-        android:layout_height="94dp"
+        android:layout_width="170dp"
+        android:layout_height="176dp"
         android:layout_marginTop="16dp"
         android:contentDescription="@string/nickelImage"
         app:layout_constraintBottom_toTopOf="@+id/dimeImageID"
@@ -118,25 +116,24 @@
 
     <EditText
         android:id="@+id/amountToDispenseEditTextID"
-        android:layout_width="211dp"
-        android:layout_height="38dp"
+        android:layout_width="322dp"
+        android:layout_height="64dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="68dp"
         android:layout_marginEnd="8dp"
         android:autofillHints="@string/twentyFiveCents"
         android:ems="10"
         android:hint="@string/amountDeliverableInAtLeastNickels"
         android:inputType="numberDecimal"
-        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="@+id/addDimeButtonID"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="@+id/subtractDimeButtonID"
         app:layout_constraintTop_toBottomOf="@+id/dimeImageID" />
 
     <ImageView
         android:id="@+id/quarterImageID"
-        android:layout_width="84dp"
-        android:layout_height="58dp"
+        android:layout_width="170dp"
+        android:layout_height="176dp"
         android:layout_marginTop="128dp"
         android:contentDescription="@string/quarterImage"
         app:layout_constraintBottom_toTopOf="@+id/nickelImageID"
@@ -148,8 +145,8 @@
 
     <ImageButton
         android:id="@+id/addQuarterButtonID"
-        android:layout_width="44dp"
-        android:layout_height="40dp"
+        android:layout_width="98dp"
+        android:layout_height="109dp"
         android:contentDescription="@string/addQuarterButtom"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="@+id/quarterImageID"
@@ -161,8 +158,8 @@
 
     <ImageButton
         android:id="@+id/addNickelButtonID"
-        android:layout_width="38dp"
-        android:layout_height="41dp"
+        android:layout_width="98dp"
+        android:layout_height="109dp"
         android:contentDescription="@string/addNickelButton"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="@+id/nickelImageID"
@@ -174,8 +171,8 @@
 
     <ImageButton
         android:id="@+id/addDimeButtonID"
-        android:layout_width="39dp"
-        android:layout_height="48dp"
+        android:layout_width="98dp"
+        android:layout_height="109dp"
         android:layout_marginBottom="8dp"
         android:contentDescription="@string/addDimeButton"
         android:scaleType="fitXY"
@@ -188,8 +185,8 @@
 
     <ImageButton
         android:id="@+id/subtactQuarterButtonID"
-        android:layout_width="40dp"
-        android:layout_height="44dp"
+        android:layout_width="95dp"
+        android:layout_height="74dp"
         android:contentDescription="@string/subtractQuarterButton"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="@+id/quarterImageID"
@@ -216,11 +213,11 @@
 
     <Button
         android:id="@+id/dispenseButtonID"
-        android:layout_width="89dp"
-        android:layout_height="35dp"
+        android:layout_width="166dp"
+        android:layout_height="62dp"
         android:text="@string/dispense"
         android:textAllCaps="true"
-        android:textSize="12sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/inputAmounToDispenseTextViewID"
         app:layout_constraintStart_toStartOf="@+id/inputAmounToDispenseTextViewID"
@@ -233,46 +230,46 @@
         android:layout_height="51dp"
         android:text="0"
         android:textAlignment="center"
-        android:textSize="12sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="@+id/amountOfQuartersToDispenseTextViewID"
         app:layout_constraintEnd_toEndOf="@+id/amountInDispenerTextViewID"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.535"
         app:layout_constraintStart_toStartOf="@+id/amountInDispenerTextViewID"
         app:layout_constraintTop_toTopOf="@+id/amountOfQuartersToDispenseTextViewID"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/amountInDispenerTextViewID"
-        android:layout_width="72dp"
-        android:layout_height="28dp"
+        android:layout_width="106dp"
+        android:layout_height="57dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:text="@string/amountInDispenser"
         android:textAlignment="center"
-        android:textSize="10sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/quartersInDispenserTextViewID"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/amountInDispenserTextViewID"
         app:layout_constraintTop_toBottomOf="@+id/inputAmounToDispenseTextViewID"
-        app:layout_constraintVertical_bias="0.666" />
+        app:layout_constraintVertical_bias="0.933" />
 
     <TextView
         android:id="@+id/amountInDispenserTextViewID"
-        android:layout_width="81dp"
-        android:layout_height="30dp"
+        android:layout_width="104dp"
+        android:layout_height="53dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:text="@string/amountToDispense"
         android:textAlignment="center"
-        android:textSize="10sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/amountOfQuartersToDispenseTextViewID"
         app:layout_constraintEnd_toStartOf="@+id/amountInDispenerTextViewID"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/addQuarterButtonID"
         app:layout_constraintTop_toBottomOf="@+id/inputAmounToDispenseTextViewID"
-        app:layout_constraintVertical_bias="0.769" />
+        app:layout_constraintVertical_bias="0.631" />
 
     <TextView
         android:id="@+id/nickelsInDispenserTextViewID"
@@ -280,7 +277,7 @@
         android:layout_height="50dp"
         android:text="0"
         android:textAlignment="center"
-        android:textSize="12sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="@+id/amountOfNickelsToDispenseTextViewID"
         app:layout_constraintEnd_toEndOf="@+id/quartersInDispenserTextViewID"
         app:layout_constraintStart_toStartOf="@+id/quartersInDispenserTextViewID"

@@ -1,4 +1,18 @@
 <resources>
     <string name="app_name">Bluetooth Coin Dispenser</string>
     <string name="inputAmountToDispenseInstructions">Input Amount to Dispense</string>
+    <string name="dispense">Dispense</string>
+    <string name="amountInDispenser">Amount In Dispenser</string>
+    <string name="amountToDispense">Amount to Dispense</string>
+    <string name="subtractQuarterButton">Subtract Quarter Button</string>
+    <string name="addQuarterButtom">Add Quarter Button</string>
+    <string name="subractNickelButton">Subtract Nickel Button</string>
+    <string name="addNickelButton">Add Nickel Button</string>
+    <string name="subtractDimeButton">Subtract Dime Button</string>
+    <string name="addDimeButton">Add Dime Button</string>
+    <string name="dimeImage">Dime Image</string>
+    <string name="nickelImage">Nickel Image</string>
+    <string name="quarterImage">Quarter Image</string>
+    <string name="amountDeliverableInAtLeastNickels">Amount deliverable in at least nickels</string>
+    <string name="twentyFiveCents">0.25</string>
 </resources>
